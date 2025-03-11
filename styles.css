@@ -1,0 +1,129 @@
+body {
+    background-image: url("https://i.pinimg.com/1200x/3a/65/71/3a65718f6b32855c46bfd23bc0525972.jpg");
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: right bottom; /* Position the image in the right bottom corner */
+    background-size: contain; /* Or 'cover' or specific dimensions */
+  }
+
+
+body {
+
+    background-color: #dcf4f5;
+  
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background: rgb(77, 241, 233);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-blend-mode: color-burn;
+}
+
+button {
+    padding: 10px;
+    background: #edb6e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-style: double;
+    border-width: 5px;
+    border-color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #c8c6c6;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+h1 {
+    background-color: white;
+    background-blend-mode:color-burn;
+    color: #000000;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column; /* This makes the images stack vertically */
+    align-items: flex-start; /* Aligns images to the left */
+    margin-right: 20px; /* Add some space between the images and other content */
+  }
+  
+  .image-column img {
+    width: 200px; /* Set the width of the images */
+    height: 200px; /* Set the height of the images */
+    margin-bottom: 10px; /* Add space between the images */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allows the content div to take up remaining space */
+  }
+
+  
+  .left {
+    position: absolute; /* Use absolute positioning */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+}
+
+.left img {
+    width: 425px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.left p {
+
+    left
+
+
+}
+
+.footerText {
+    position: fixed; /* Use fixed positioning */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Position at the left */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Add some padding for spacing */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: add a semi-transparent background */
+    font-size: 14px; /* Optional: adjust font size */
+    top margin : 10;
+    
+}
